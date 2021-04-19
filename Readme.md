@@ -2,7 +2,7 @@
 
 By - Milind and Ibrahim as a project for GUI course.
 
-## A plant searching app
+## A botanical encylcopedia
 
 This application is built using tkinter, SQLite and a botanical data source [API](https://trefle.io). It is a single window application, with pages for different functionalities. I've used `ResultPage.py` to render species information for both save and search feature. For searching, the user can enter a common name into the search field though the app supports search via scientific name too. For additional information the user can download the response JSON recieved from the API but the user has to configure the download path (absolute path required) in `ResultPage.py` for this functionality to work. By default, all JSONs will be downloaded in the main directory of the application.
 
